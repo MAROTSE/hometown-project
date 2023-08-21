@@ -1,0 +1,121 @@
+*{
+   
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+main{
+  max-width: 80%;  
+}
+
+.header {
+    background-image: url(images/nairobi2.jpg);
+    background-size: cover;
+    /* width: 720px; */
+    height: 343px;
+   color: whitesmoke;
+    
+}
+.activity-section {
+/* width: 720px; */
+/* max-height: 470px; */
+background:  #F1FAEE;
+padding:10px;
+/* border: solid 2px red; */
+ 
+}
+
+.activities-container {
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+   
+
+}
+p{
+    padding: 10px;
+}
+h2{
+
+}
+
+/* img {
+    width: 100px;
+} */
+
+.activity-img {
+    border-radius:50%;
+    width: 120px;
+    height: 120px; 
+    padding:20px ;
+    
+}
+
+.guide-section {
+/* width: 720px; */
+height: 394px;
+background:  #fff;
+margin:2px;
+
+
+}
+.guide-container {
+width: 400px;
+height: 300px;
+border-radius: 10px;
+background: #A8DADC;
+box-shadow: 0px 6px 0px 0px #1D3557;
+margin:  auto; 
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction:row-reverse;
+text-align: center;
+gap: 20px;
+padding: 20px;
+color: #1D3557;
+font-family: Arial;
+font-style: normal;
+font-weight: 700;
+line-height: normal;   
+
+}
+
+.guide-img{
+width: 180px;
+height: 200px;
+border-radius:8px;
+border-radius:50%;
+
+
+}
+.guide-name {
+ width: 189px;
+height: 18px;
+font-size: 16px;
+
+}
+
+.guide {
+width: 207px;
+height: 32px;
+color: #571d27;
+font-size: 24px;
+}
+
+.guide-description {
+ width: 189px;
+height: 71px;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+
+}
